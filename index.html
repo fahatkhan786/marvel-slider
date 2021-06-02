@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Marvel</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<!-- Swiper -->
+	  <div class="swiper-container">
+	    <div class="swiper-wrapper">
+			<!-- 1 -->
+			<div class="swiper-slide">
+					<img src="marvel.png" class="marvel" alt="Marvel"></img>
+					<img src="antman.png" class="hero">
+					<div class="description">
+						<img src="ant-man-logo.png" class="logo ant">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+			</div>
+			<!-- 2 -->
+			<div class="swiper-slide">
+					<img src="marvel.png" class="marvel" alt="Marvel"></img>
+					<img src="deadpool_PNG94.png" class="hero">
+					<div class="description">
+						<img src="dp-logo.png" class="logo">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+			</div>
+			<!-- 3 -->
+			<div class="swiper-slide">
+					<img src="marvel.png" class="marvel" alt="Marvel"></img>
+					<img src="spider_man.png" class="hero">
+					<div class="description">
+						<img src="spider_man_logo.png" class="logo sm">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+			</div>
+			<!-- 4 -->
+			<div class="swiper-slide">
+					<img src="marvel.png" class="marvel" alt="Marvel"></img>
+					<img src="Venom.png" class="hero">
+					<div class="description">
+						<img src="Venom-logo.png" class="logo">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+			</div>
+			<!-- 5 -->
+			<div class="swiper-slide">
+					<img src="marvel.png" class="marvel" alt="Marvel"></img>
+					<img src="Thor.png" class="hero">
+					<div class="description">
+						<img src="mjolnir.png" class="logo">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+			</div>
+			<!-- 6 -->
+			<div class="swiper-slide">
+					<img src="marvel.png" class="marvel" alt="Marvel"></img>
+					<img src="ironman_hero.png" class="hero">
+					<div class="description">
+						<img src="im-logo.png" class="logo">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+			</div>
+			<!-- 7 -->
+			<div class="swiper-slide">
+					<img src="marvel.png" class="marvel" alt="Marvel"></img>
+					<img src="captain.png" class="hero">
+					<div class="description">
+						<img src="captain-logo.png" class="logo">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+			</div>
+			<!-- 8 -->
+			<div class="swiper-slide">
+					<img src="marvel.png" class="marvel" alt="Marvel"></img>
+					<img src="hulk.png" class="hero">
+					<div class="description">
+						<img src="hulk_logo.png" class="logo">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+			</div>
+	    </div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+	</div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+	</div>
+
+	
+
+	  <!-- Swiper JS -->
+	  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	  
+	  <!-- Initialize Swiper -->
+	  <script type="text/javascript">
+	    var swiper = new Swiper('.swiper-container', {
+	      slidesPerView: '3',
+	      // autoplay: true, 
+	      spaceBetween: 48,
+	      centeredSlides: true,
+	      grabCursor: true,	      
+	      loop: true,
+	      pagination: {
+	        el: '.swiper-pagination',
+	        type: 'bullets',
+	        clickable: true,
+	      },
+	      navigation: {
+	        nextEl: '.swiper-button-next',
+	        prevEl: '.swiper-button-prev',
+	      },
+	    });
+	  </script>
+
+</body>
+</html>
